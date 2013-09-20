@@ -4,9 +4,10 @@ defmodule FizzBuzz do
     "FizzBuzz"
   end
 
-  def fizzbuzz_word(0, _, _) do
-    "Fizz"
-  end
+  """
+  Just to remember the block syntax
+  """
+  def fizzbuzz_word(0, _, _), do: "Fizz"
 
   def fizzbuzz_word(_, 0, _) do
     "Buzz"
