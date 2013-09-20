@@ -9,11 +9,11 @@ Started from [Programming Elixir](http://pragprog.com/book/elixir/programming-el
 Run with:
 
 ```bash
-$ elixir fizzbuzz/fizzbuzz\_anonymous\_functions.exs
+$ elixir fizzbuzz/fizzbuzz_anonymous_functions.exs
 ```
 
 and
 
 ```bash
-$ elixir elixir fizzbuzz/fizzbuzz\_test.exs
+$ elixir elixir fizzbuzz/fizzbuzz_test.exs
 ```
