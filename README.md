@@ -1,6 +1,6 @@
 # Elixir Studies
 
-My elxir stduies =)
+My Elixir stduies =)
 
 Started from [Programming Elixir](http://pragprog.com/book/elixir/programming-elixir) of [pragprog](http://pragprog.com).
 
