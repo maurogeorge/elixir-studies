@@ -21,5 +21,17 @@ defmodule MyListTest do
   test "len handle a list independent of type" do
     assert MyList.len(["foo", "bar", "baz"]) == 3
   end
+
+  test "square handle empty list" do
+    assert MyList.square([]) == []
+  end
+
+  test "square handle 2 elements list" do
+    assert MyList.square([2, 4]) == [4, 16]
+  end
+
+  test "square handle multiple elements list" do
+    assert MyList.square([2, 3, 4]) == [4, 9, 16]
+  end
 end
 
