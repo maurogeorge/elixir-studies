@@ -11,7 +11,7 @@ You should get “Buzz, 11, Fizz, 13, 14, FizzBuzz”, 16”.
 (Yes, it’s a FizzBuzz1 solution with no conditional logic)
 """
 
-defmodule MyTest do
+defmodule FizzBuzzTest do
   use ExUnit.Case
 
   test "with 10 should be equal Buzz" do
