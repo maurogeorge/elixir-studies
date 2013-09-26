@@ -34,16 +34,31 @@ defmodule MyListTest do
     assert MyList.square([2, 3, 4]) == [4, 9, 16]
   end
 
-  test "add_1 with a empty list" do
+  test "add_1 handle a empty list" do
     assert MyList.add_1([]) == []
   end
 
-  test "add_1 with a 2 elements list" do
+  test "add_1 handle a 2 elements list" do
     assert MyList.add_1([2, 4]) == [3, 5]
   end
 
-  test "add_1 with a multiple elements list" do
+  test "add_1 handle a multiple elements list" do
     assert MyList.add_1([2, 3, 4]) == [3, 4, 5]
+  end
+
+  test "map handle a empty list" do
+    assert MyList.map([], fn(n) -> n*n end) == []
+  end
+
+  test "map call function on list itens" do
+    func = fn(n) ->
+      n*n
+    end
+    assert MyList.map([2, 4], func) == [4, 16]
+  end
+
+  test "map call function on multiple list itens" do
+    assert MyList.map([2, 3, 4], &(&1 + 2)) == [4, 5, 6]
   end
 end
 
