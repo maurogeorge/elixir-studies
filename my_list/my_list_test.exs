@@ -60,5 +60,17 @@ defmodule MyListTest do
   test "map call function on multiple list itens" do
     assert MyList.map([2, 3, 4], &(&1 + 2)) == [4, 5, 6]
   end
+
+  test "sum handle a  empty list" do
+    assert MyList.sum([]) == 0
+  end
+
+  test "sum handle a 2 elements list" do
+    assert MyList.sum([2, 4]) == 6
+  end
+
+  test "sum handle a multiple elements list" do
+    assert MyList.sum([2, 4, 5]) == 11
+  end
 end
 
