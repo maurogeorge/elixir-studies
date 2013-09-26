@@ -61,7 +61,7 @@ defmodule MyListTest do
     assert MyList.map([2, 3, 4], &(&1 + 2)) == [4, 5, 6]
   end
 
-  test "sum handle a  empty list" do
+  test "sum handle a empty list" do
     assert MyList.sum([]) == 0
   end
 
@@ -71,6 +71,18 @@ defmodule MyListTest do
 
   test "sum handle a multiple elements list" do
     assert MyList.sum([2, 4, 5]) == 11
+  end
+
+  test "sum_without_accumulator handle a empty list" do
+    assert MyList.sum_without_accumulator([]) == 0
+  end
+
+  test "sum_without_accumulator handle a 2 elements list" do
+    assert MyList.sum_without_accumulator([2, 3]) == 5
+  end
+
+  test "sum_without_accumulator handle a multiple elements list" do
+    assert MyList.sum_without_accumulator([2, 3, 4]) == 9
   end
 end
 
