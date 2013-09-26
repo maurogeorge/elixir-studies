@@ -15,5 +15,16 @@ $ elixir fizzbuzz/fizzbuzz_anonymous_functions.exs
 and
 
 ```bash
-$ elixir elixir fizzbuzz/fizzbuzz_test.exs
+$ elixir fizzbuzz/fizzbuzz_test.exs
 ```
+
+
+## my_list
+
+Run with:
+
+```bash
+$ elixir my_list/my_list_test.exs
+```
+
+
