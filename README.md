@@ -27,4 +27,7 @@ Run with:
 $ elixir my_list/my_list_test.exs
 ```
 
+## issues
+
+The sample app created with mix on chapter 12
 
