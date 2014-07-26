@@ -84,5 +84,9 @@ defmodule MyListTest do
   test "sum_without_accumulator handle a multiple elements list" do
     assert MyList.sum_without_accumulator([2, 3, 4]) == 9
   end
+
+  test "applies the function and then sum the result" do
+    assert MyList.mapsum([1, 2, 3], &(&1 * &1)) == 14
+  end
 end
 
