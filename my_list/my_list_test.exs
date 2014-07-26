@@ -1,4 +1,4 @@
-Code.require_file "../my_list.exs", __FILE__
+Code.require_file "my_list/my_list.exs"
 
 ExUnit.start
 
