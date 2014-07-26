@@ -1,4 +1,4 @@
-Code.require_file "../fizzbuzz.exs", __FILE__
+Code.require_file "fizzbuzz/fizzbuzz.exs"
 
 ExUnit.start
 
