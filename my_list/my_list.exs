@@ -20,7 +20,7 @@ defmodule MyList do
   def sum_without_accumulator([head | tail]), do: head + sum_without_accumulator(tail)
 
   def mapsum(list, func), do: _mapsum(list, func, 0)
-  def _mapsum([], func, total), do: total
-  def _mapsum([head | tail], func, total), do: total + _mapsum(tail, func, func.(head))
+  defp _mapsum([], func, total), do: total
+  defp _mapsum([head | tail], func, total), do: total + _mapsum(tail, func, func.(head))
 end
 
