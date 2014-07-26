@@ -34,6 +34,14 @@ Run with:
 $ elixir my_math/my_math_test.exs
 ```
 
+## my_factorial
+
+Run with:
+
+```bash
+$ elixir my_factorial/my_factorial_test.exs
+```
+
 ## issues
 
 The sample app created with mix on chapter 12
