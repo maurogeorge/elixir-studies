@@ -18,13 +18,20 @@ and
 $ elixir fizzbuzz/fizzbuzz_test.exs
 ```
 
-
 ## my_list
 
 Run with:
 
 ```bash
 $ elixir my_list/my_list_test.exs
+```
+
+## my_math
+
+Run with:
+
+```bash
+$ elixir my_math/my_math_test.exs
 ```
 
 ## issues
