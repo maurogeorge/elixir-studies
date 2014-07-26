@@ -42,6 +42,13 @@ Run with:
 $ elixir my_factorial/my_factorial_test.exs
 ```
 
+## pipe_fizzbuzz
+
+Run with:
+
+```bash
+$ elixir pipe_fizzbuzz/pipe_fizzbuzz_test.exs
+```
 ## issues
 
 The sample app created with mix on chapter 12
