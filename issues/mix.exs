@@ -29,7 +29,8 @@ defmodule Issues.Mixfile do
   defp deps do
     [
       { :hackney, github: "benoitc/hackney" },
-      { :httpoison, "~> 0.3" }
+      { :httpoison, "~> 0.3" },
+      { :jsx, "~> 2.0" }
     ]
   end
 end
