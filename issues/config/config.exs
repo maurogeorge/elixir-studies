@@ -4,6 +4,7 @@
 use Mix.Config
 
 config :issues, github_url: "https://api.github.com"
+config :logger, compile_time_purge_level: :info
 
 # Note this file is loaded before any dependency and is restricted
 # to this project. If another project depends on this project, this
