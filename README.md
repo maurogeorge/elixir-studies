@@ -57,14 +57,14 @@ Run with the iex:
 
 ```
 $ iex -S mix
-Issues.CLI.run ["rails", "rails"]
-Issues.CLI.run ["rails", "rails", "10"]
+Issues.CLI.main ["rails", "rails"]
+Issues.CLI.main ["rails", "rails", "10"]
 ```
 
 Run with mix run:
 
 ```
-$ mix run -e 'Issues.CLI.run ["rails", "rails", "20"]'
+$ mix run -e 'Issues.CLI.main ["rails", "rails", "20"]'
 ```
 
 Run as a executable:
