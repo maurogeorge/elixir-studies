@@ -67,6 +67,13 @@ Run with mix run:
 $ mix run -e 'Issues.CLI.run ["rails", "rails", "20"]'
 ```
 
+Run as a executable:
+
+```
+$ mix escript.build
+$ ./issues rails rails 10
+```
+
 Run the test with:
 
 ```
