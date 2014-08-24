@@ -53,3 +53,22 @@ $ elixir pipe_fizzbuzz/pipe_fizzbuzz_test.exs
 
 The sample app created with mix on chapter 12
 
+Run with the iex:
+
+```
+$ iex -S mix
+Issues.CLI.run ["rails", "rails"]
+Issues.CLI.run ["rails", "rails", "10"]
+```
+
+Run with mix run:
+
+```
+$ mix run -e 'Issues.CLI.run ["rails", "rails", "20"]'
+```
+
+Run the test with:
+
+```
+$ mix test
+```
