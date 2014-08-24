@@ -79,3 +79,9 @@ Run the test with:
 ```
 $ mix test
 ```
+
+Generate docs with:
+
+```
+$ mix docs
+```
